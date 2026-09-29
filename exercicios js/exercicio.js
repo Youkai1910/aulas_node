@@ -2,5 +2,5 @@
 
 const artista = ["Freedy Mercury", "Bom Scott", "Ozzy Osborne", "Dio", "Jim Morrison"];
 
-export default { artista }
+export  { artista }
     
