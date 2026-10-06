@@ -26,3 +26,10 @@ const monitorRequisicao = (req, res) => {
                 .then(conteudo => res.end(conteudo));
     }
 } // arrow function
+
+//servidor
+const servidor = http.createServer(monitorRequisicao);
+
+servidor.listen(80, () => {
+    console.log("Servidor rodando...")   
+});
